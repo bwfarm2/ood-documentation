@@ -55,7 +55,7 @@ The following is an example :program:`ood-portal-generator` configuration file:
 
      .. code-block:: sh
 
-        sudo chmod root:root /etc/ood/config/ood_portal.yml
+        sudo chown root:root /etc/ood/config/ood_portal.yml
         sudo chmod 0600 /etc/ood/config/ood_portal.yml
 
 Build the Apache configuration file and install it.
